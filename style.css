@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+/* ulitilizar la fuente */
+/* @font-face {
+  font-family: "fuente7";
+  src: url("font/Death\ Record\ Italic.ttf");
+}  */
+
+/* html {
+  width: 100%;
+  height: 100%;
+  /* font-family: "fuente7"; */
+/*  background-color: rgb(74, 7, 89);
+}  */
+
+p {
+  text-align: justify;
+  line-height: 25px;
+}
+
+img {
+  width: 100%;
+}
+
+.fondo {
+  max-width: 37rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.fondo .contenido {
+  background: url(images/fondo.png);
+  background-size: 100%;
+  width: 100%;
+  padding-top: 75%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.fondo .contenido .section {
+  width: 30%;
+  height: 11%;
+  border-radius: 0.9375rem;
+  /* border: 1px solid red; */
+  position: absolute;
+}
+
+.fondo .contenido .section:hover {
+  background-color: rgb(155, 155, 235, 0.3);
+}
+
+.fondo .contenido .section.uno {
+  top: 7%;
+  left: 6%;
+}
+
+.fondo .contenido .section.dos {
+  top: 15%;
+  left: 37%;
+}
+
+.fondo .contenido .section.tres {
+  top: 10%;
+  left: 69%;
+}
+
+.fondo .contenido .section.cuatro {
+  top: 31%;
+  left: 9%;
+}
+
+.fondo .contenido .section.cinco {
+  top: 36%;
+  left: 57%;
+}
+
+.fondo .contenido .section.seis {
+  top: 56%;
+  left: 9%;
+}
+
+.fondo .contenido .section.siete {
+  top: 57%;
+  left: 64%;
+}
+
+.ocho {
+  position: absolute;
+  top: 43%;
+  left: 44%;
+}
+.ocho img {
+  width: 90px;
+}
